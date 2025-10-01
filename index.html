@@ -1,0 +1,80 @@
+<!--
+Tarea #1: Hacer pagina de presentacion a HTML semantico
+-->
+
+<html>
+	<head>
+		<title>Practica Uno</title>
+	</head>
+	<body bgcolor="#C4C3C2">
+        <nav>
+            <!--Dado que esta pagina web no tiene un apartado de navegacion, no tiene nada, sin embargo,
+            en este apartado y dicha etiqueta es para los enlaces de navegacion-->
+          </nav>
+        <header> <!-- Es el encabezado de mi pagina -->
+            <h1 style="text-align: center;">Presentación</h1>
+          </header>
+        
+          <!-- la etiqueta main es es contenido principal (o cuerpo), entonces, aqui comienza el contenido principal -->
+          <main>
+            <section> <!-- Es una forma de agrupar contenidos que tratan sobre temas similares, es un div mejorado -->
+              <h2>Sobre mí</h2>
+              <p>Hola! Esta es la tarea #1 que consta en hacer una página web en HTML semántico.</p>
+              <p>Mi nombre es <strong>Bello Cisneros Cristian</strong>, tengo 26 años y estoy cursando la materia de programación web.</p>
+            </section>
+        
+            <hr>
+        
+            <section>
+              <h2 style="text-align: center;">Lista de cosas que me gustan hacer</h2>
+              <ol>
+                <li>Tocar guitarra</li>
+                <li>Grabar covers (cantar)</li>
+                <li>Dibujar</li>
+                <li>Jugar ajedrez</li>
+              </ol>
+            </section>
+        
+            <hr>
+        
+            <section>
+              <h2 style="text-align: center;">Multimedia</h2>
+              <center> <!-- De momento uso la etiqueta CENTER para centrar el contenido de la figura -->
+              <figure> <!-- La etiqueta figure se utiliza para agrupar contenido autónomo e independiente, como imágenes, diagramas, código o ilustraciones-->
+                <img src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?q=80&w=1170&auto=format&fit=crop" alt="Imagen 1" width="25%">
+                <img src="https://images.unsplash.com/photo-1502982720700-bfff97f2ecac?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Micrófono de grabación en un estudio" width="25%">
+              </figure>
+              </center>
+            </section>
+        
+            <hr>
+        
+            <section>
+              <h2 style="text-align: center;">Tabla de materias que me gustan</h2>
+              <center>
+              <table border="1">
+                <thead>
+                  <tr>
+                    <th>Cálculos en general</th>
+                    <th>Programación web</th>
+                    <th>Frontend</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Me gusta la logica y la exactitud de las matematicas</td>
+                    <td>Aunque se me hace un poco dificil, es interesante  y divertido aprender</td>
+                    <td>Mi parte favorita, porque "Le das vida" a tus apps</td>
+                  </tr>
+                </tbody>
+              </table>
+              </center>
+            </section>
+          </main>
+        
+          <!-- La etiqueta footer es para la parte inferior de una pagina, basicamente es el pie de pagina -->
+          <footer>
+            <p style="text-align: center;">Fin de la tarea</p>
+          </footer>
+        </body>
+        </html>
